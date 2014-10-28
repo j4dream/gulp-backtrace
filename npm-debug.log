@@ -1,0 +1,119 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@2.0.0
+3 info using node@v0.10.26
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add spec="." args=[".",null]
+7 verbose parsed spec { raw: '.',
+7 verbose parsed spec   scope: null,
+7 verbose parsed spec   name: null,
+7 verbose parsed spec   rawSpec: '.',
+7 verbose parsed spec   spec: '/Users/gary/Projects/webyom/gulp-backtrace',
+7 verbose parsed spec   type: 'local' }
+8 verbose cache add local package /Users/gary/Projects/webyom/gulp-backtrace
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/gary/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/Users/gary/.npm/gulp-backtrace/0.0.4/package.tgz', '.' ]
+12 verbose tarball /Users/gary/.npm/gulp-backtrace/0.0.4/package.tgz
+13 verbose folder .
+14 info prepublish gulp-backtrace@0.0.4
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /Users/gary/.npm/1f1177db-tar.lock
+17 silly lockFile 0a4653de-gulp-backtrace-0-0-4-package-tgz tar:///Users/gary/.npm/gulp-backtrace/0.0.4/package.tgz
+18 verbose lock tar:///Users/gary/.npm/gulp-backtrace/0.0.4/package.tgz /Users/gary/.npm/0a4653de-gulp-backtrace-0-0-4-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 0a4653de-gulp-backtrace-0-0-4-package-tgz tar:///Users/gary/.npm/gulp-backtrace/0.0.4/package.tgz
+22 silly lockFile 0a4653de-gulp-backtrace-0-0-4-package-tgz tar:///Users/gary/.npm/gulp-backtrace/0.0.4/package.tgz
+23 silly lockFile bc7bdc13-npm-gulp-backtrace-0-0-4-package /Users/gary/.npm/gulp-backtrace/0.0.4/package
+24 verbose lock /Users/gary/.npm/gulp-backtrace/0.0.4/package /Users/gary/.npm/bc7bdc13-npm-gulp-backtrace-0-0-4-package.lock
+25 silly lockFile bc7bdc13-npm-gulp-backtrace-0-0-4-package /Users/gary/.npm/gulp-backtrace/0.0.4/package
+26 silly lockFile bc7bdc13-npm-gulp-backtrace-0-0-4-package /Users/gary/.npm/gulp-backtrace/0.0.4/package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'gulp-backtrace',
+29 silly publish   version: '0.0.4',
+29 silly publish   description: 'Backtrace',
+29 silly publish   keywords: [ 'amd', 'micro template', 'gulpplugin' ],
+29 silly publish   homepage: 'https://github.com/webyom/gulp-backtrace',
+29 silly publish   author:
+29 silly publish    { name: 'Gary Wang',
+29 silly publish      email: 'webyom@gmail.com',
+29 silly publish      url: 'http://webyom.org' },
+29 silly publish   repository:
+29 silly publish    { type: 'git',
+29 silly publish      url: 'https://github.com/webyom/gulp-backtrace.git' },
+29 silly publish   bugs: { url: 'https://github.com/webyom/gulp-backtrace/issues' },
+29 silly publish   licenses:
+29 silly publish    [ { type: 'MIT',
+29 silly publish        url: 'https://github.com/webyom/gulp-backtrace/blob/master/LICENSE-MIT' } ],
+29 silly publish   main: 'lib/index.js',
+29 silly publish   engines: { node: '>= 0.8.0' },
+29 silly publish   scripts: {},
+29 silly publish   dependencies: { glob: '^4.0.4', 'gulp-util': '^2.2.19', through2: '^0.5.1' },
+29 silly publish   devDependencies:
+29 silly publish    { gulp: '^3.8.5',
+29 silly publish      'gulp-coffee': '^2.0.1',
+29 silly publish      'coffee-script': '^1.7.1' },
+29 silly publish   readme: '# gulp-backtrace\nBacktrace\n',
+29 silly publish   readmeFilename: 'README.md',
+29 silly publish   _id: 'gulp-backtrace@0.0.4',
+29 silly publish   _from: '.',
+29 silly publish   _shasum: '7a03bb3ff5d22a7be0945dc4d08f2496412ced15' }
+30 verbose mapToRegistry name gulp-backtrace
+31 verbose mapToRegistry uri https://registry.npmjs.org/gulp-backtrace
+32 verbose publish registryBase https://registry.npmjs.org/
+33 verbose request on initialization, where is /gulp-backtrace
+34 verbose request after pass 1, where is /gulp-backtrace
+35 verbose request url raw /gulp-backtrace
+36 verbose request resolving registry [ 'https://registry.npmjs.org/', './gulp-backtrace' ]
+37 verbose request after pass 2, where is https://registry.npmjs.org/gulp-backtrace
+38 verbose request sending authorization for write operation
+39 info attempt registry request try #1 at 16:23:04
+40 verbose request id 1339bba24c19eef0
+41 http request PUT https://registry.npmjs.org/gulp-backtrace
+42 http 403 https://registry.npmjs.org/gulp-backtrace
+43 verbose headers { date: 'Tue, 28 Oct 2014 08:23:03 GMT',
+43 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+43 verbose headers   'content-type': 'application/json',
+43 verbose headers   'cache-control': 'max-age=60',
+43 verbose headers   'content-length': '230',
+43 verbose headers   'accept-ranges': 'bytes',
+43 verbose headers   via: '1.1 varnish',
+43 verbose headers   'x-served-by': 'cache-hk91-HKG',
+43 verbose headers   'x-cache': 'MISS',
+43 verbose headers   'x-cache-hits': '0',
+43 verbose headers   'x-timer': 'S1414484582.727307,VS0,VE685',
+43 verbose headers   'keep-alive': 'timeout=10, max=50',
+43 verbose headers   connection: 'Keep-Alive' }
+44 error publish Failed PUT 403
+45 verbose stack Error: forbidden Attempting to modify version 0.0.4,
+45 verbose stack which was previously published on 2014-07-17T03:36:45.661Z.
+45 verbose stack This is forbidden, to maintain package integrity.
+45 verbose stack Please update the version number and try again.: gulp-backtrace
+45 verbose stack     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:261:14)
+45 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:198:65)
+45 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:236:22)
+45 verbose stack     at Request.EventEmitter.emit (events.js:98:17)
+45 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+45 verbose stack     at Request.EventEmitter.emit (events.js:117:20)
+45 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+45 verbose stack     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+45 verbose stack     at _stream_readable.js:920:16
+45 verbose stack     at process._tickCallback (node.js:415:13)
+46 verbose statusCode 403
+47 verbose pkgid gulp-backtrace
+48 verbose cwd /Users/gary/Projects/webyom/gulp-backtrace
+49 error Darwin 13.1.0
+50 error argv "node" "/usr/local/bin/npm" "publish"
+51 error node v0.10.26
+52 error npm  v2.0.0
+53 error code E403
+54 error forbidden Attempting to modify version 0.0.4,
+54 error which was previously published on 2014-07-17T03:36:45.661Z.
+54 error This is forbidden, to maintain package integrity.
+54 error Please update the version number and try again.: gulp-backtrace
+55 error If you need help, you may report this error at:
+55 error     <http://github.com/npm/npm/issues>
+56 verbose exit [ 1, true ]
